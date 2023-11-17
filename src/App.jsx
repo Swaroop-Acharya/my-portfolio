@@ -9,7 +9,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
-    <div className="font-pop overflow-hidden scroll-smooth bg-black">
+    <div className="font-pop overflow-hidden scroll-smooth">
       <Header />
       <Main>
         <About />
