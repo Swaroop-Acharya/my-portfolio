@@ -22,10 +22,10 @@
 }
 
 body {
-  background: rgb(0, 42, 255);
+  background: rgb(35, 66, 222);
   background: radial-gradient(
     ellipse,
-    rgba(0, 42, 255, 1) 0%,
+    rgb(35, 66, 222) 0%,
     rgba(0, 0, 0, 1) 45%
   );
   background-attachment: fixed;
