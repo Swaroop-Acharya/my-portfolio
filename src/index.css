@@ -22,12 +22,13 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(0, 42, 255);
+  background: radial-gradient(
+    ellipse,
+    rgba(0, 42, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 45%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
 }
-
