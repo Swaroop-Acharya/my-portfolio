@@ -30,6 +30,8 @@ function App() {
           <Header />
           <Main>
             <About />
+            <About />
+            <About />
           </Main>
 
           <AnimatedCursor
