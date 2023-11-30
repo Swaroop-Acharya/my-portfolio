@@ -4,7 +4,7 @@ import Header from "./components/Header/Header.jsx";
 import About from "./components/Main/About.jsx";
 import Main from "./components/Main/Main.jsx";
 import AnimatedCursor from "react-animated-cursor";
-import { PropagateLoader } from "react-spinners";
+import { PropagateLoader,HashLoader } from "react-spinners";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -14,13 +14,13 @@ function App() {
     // Simulate a delay (e.g., API call, data fetching) before setting loading to false
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 2300);
 
     return () => clearTimeout(delay);
   }, []);
 
   return (
-    <div className="font-pop overflow-hidden scroll-smooth min-h-screen flex flex-col">
+    <div className="font-pop scroll-smooth min-h-screen flex flex-col">
       {loading ? (
         <div className="flex-grow flex items-center justify-center">
           <PropagateLoader color="#fff" size={15} margin="5px" />
