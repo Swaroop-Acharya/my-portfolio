@@ -3,7 +3,7 @@ import Button from "../Button";
 
 export default function About() {
   return (
-    <section className=" gap-10 md:gap-20 flex md:flex-row flex-col mt-28 text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
+    <section className=" gap-10 md:gap-20 flex md:flex-row flex-col mt-24 text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
       <div>
         <img
           loading="lazy"
