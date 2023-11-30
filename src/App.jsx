@@ -1,11 +1,12 @@
 import "./App.css";
 import "../src/Styles/modern-normalise.css";
 import Header from "./components/Header/Header.jsx";
-import About from "./components/Main/About.jsx";
 import Main from "./components/Main/Main.jsx";
 import AnimatedCursor from "react-animated-cursor";
 import { PropagateLoader,HashLoader } from "react-spinners";
 import { useState, useEffect } from "react";
+import Home from "./components/Main/Home.jsx";
+import About from "./components/Main/About.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="font-pop scroll-smooth min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-0.5font-pop scroll-smooth min-h-screen flex flex-col">
       {loading ? (
         <div className="flex-grow flex items-center justify-center">
           <PropagateLoader color="#fff" size={15} margin="5px" />
@@ -29,7 +30,8 @@ function App() {
         <div className="flex-grow">
           <Header />
           <Main>
-            <About />
+            <Home />
+            <About/>
            
           </Main>
 
