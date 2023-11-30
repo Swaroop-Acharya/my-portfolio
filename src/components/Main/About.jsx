@@ -2,11 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="flex gap-3 mt-8">
+    <section className="flex flex-col md:flex-row gap-3 mt-8">
        <div className="flex-shrink-0 w-80 mr-40 text-secondary uppercase text-right font-bold tracking-wide">
         BACKGROUND 👨‍💻
       </div>
-      <div className="font-light w-full max-w-3xl">
+      <div className="pt-16 pl-24 md:p-0 font-light w-full max-w-3xl">
         <p className="mb-10">
           Welcome to my portfolio! I hold a degree in Electronics and Communication Engineering from
           <a
