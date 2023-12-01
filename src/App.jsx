@@ -16,7 +16,7 @@ function App() {
     // Simulate a delay (e.g., API call, data fetching) before setting loading to false
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 30);
+    }, 2500);
 
     return () => clearTimeout(delay);
   }, []);
