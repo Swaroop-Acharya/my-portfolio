@@ -7,6 +7,7 @@ import { PropagateLoader,HashLoader } from "react-spinners";
 import { useState, useEffect } from "react";
 import Home from "./components/Main/Home.jsx";
 import About from "./components/Main/About.jsx";
+import Skills from "./components/Main/Skills.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function App() {
           <Main>
             <Home />
             <About/>
+            <Skills/>
            
           </Main>
 
