@@ -35,6 +35,9 @@ export default function Home() {
           />
           <Button title="Contact Me" logo="" />
         </div>
+        <div>
+          
+        </div>
       </div>
     </section>
   );
