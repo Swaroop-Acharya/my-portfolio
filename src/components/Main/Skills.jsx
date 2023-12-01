@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section className="flex flex-col md:flex-row gap-1 p-7 mt-8">
       <div className="flex-shrink-0 w-80 mr-40 text-secondary uppercase md:text-right font-bold tracking-wide">
-        SKILLS 👨‍💻
+        SKILLS 🔧
       </div>
       <div className="flex flex-wrap justify-between">
         <div className="mb-6 flex-1 min-w-[150px]">

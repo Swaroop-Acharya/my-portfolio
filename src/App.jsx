@@ -25,7 +25,7 @@ function App() {
     <div className="w-full mx-auto font-pop scroll-smooth justify-center min-h-screen flex flex-col">
       {loading ? (
         <div className="flex-grow flex items-center justify-center">
-          <PropagateLoader color="#fff" size={15} margin="5px" />
+          <HashLoader color="#fff" size={30} margin="5px" />
         </div>
       ) : (
         <div className="flex-grow">
