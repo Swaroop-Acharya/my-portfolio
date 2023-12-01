@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../Button";
-import './home.css'
+import "./home.css";
+import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
+
 export default function Home() {
   return (
     <section className="gap-10 home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
@@ -16,9 +18,7 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           <p className="font-semibold">Hello, I'm</p>
           <h1 className="text-3xl md:text-5xl font-semibold">Swaroop</h1>
-          <h1 className="font-semibold">
-           Frontend Developer
-          </h1>
+          <h1 className="font-semibold">Software Developer</h1>
         </div>
         <div className="flex justify-center items-center gap-3">
           <Button
@@ -35,8 +35,18 @@ export default function Home() {
           />
           <Button title="Contact Me" logo="" />
         </div>
-        <div>
-          
+        <div className="flex justify-center items-center gap-5">
+          <a href="https://github.com/Swaroop-Acharya" target="__blank">
+            <GitHub fontSize="large" />
+          </a>
+          <a href="https://www.linkedin.com/in/swaroop-acharya-55b8b5223/"  target="__blank">
+
+          <LinkedIn fontSize="large" />
+          </a>
+          <a href="https://twitter.com/swaroopcodes"  target="__blank">
+          <Twitter fontSize="large" />
+
+          </a>
         </div>
       </div>
     </section>
