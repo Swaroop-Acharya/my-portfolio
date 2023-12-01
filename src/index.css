@@ -37,7 +37,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
-  width: 100vw;
-  height: 100vh;
+  
   overflow-x: hidden;
 }
