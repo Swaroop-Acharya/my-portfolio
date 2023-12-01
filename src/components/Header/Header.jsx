@@ -9,8 +9,8 @@ export default function Header() {
   }
   return (
     <header className="w-full mx-auto flex flex-col align-middle ">
-      <nav className="desktop-nav p-4 justify-around items-center my-6 sm:flex hidden ">
-        <div className="logo text-3xl hover:cursor-default">Swaroop</div>
+      <nav className="desktop-nav p-4 justify-around items-center my-6 md:flex hidden ">
+        <div className="logo text-2xl md:text-3xl hover:cursor-default">Swaroop</div>
         <div>
           <ul className="nav-links flex gap-8 list-none text-2xl">
             <li>
@@ -48,7 +48,7 @@ export default function Header() {
           </ul>
         </div>
       </nav>
-      <nav className=" hamburger-nav flex justify-between mt-4 ml-4 mr-4 items-center sm:hidden">
+      <nav className=" hamburger-nav flex justify-between mt-4 ml-4 mr-4 items-center md:hidden">
         <div className="text-2xl hover:cursor-default logo">Swaroop</div>
         <div className="hamburger-menu relative inline-block">
           <div

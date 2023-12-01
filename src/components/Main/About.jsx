@@ -6,7 +6,7 @@ export default function About() {
        <div className="flex-shrink-0 w-80 mr-40 text-secondary uppercase md:text-right font-bold tracking-wide">
         BACKGROUND 👨‍💻
       </div>
-      <div className= "font-light w-full max-w-3xl text-justify">
+      <div className= "font-light w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">
         <p className="mb-10 ">
           Welcome to my portfolio! I hold a degree in Information Science and Engineering from 
           {' '}

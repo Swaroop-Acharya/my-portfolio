@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full mx-auto px-0.5font-pop scroll-smooth min-h-screen flex flex-col">
+    <div className="w-full mx-auto px-0.5 font-pop scroll-smooth min-h-screen items-center justify-center flex flex-col">
       {loading ? (
         <div className="flex-grow flex items-center justify-center">
           <PropagateLoader color="#fff" size={15} margin="5px" />
