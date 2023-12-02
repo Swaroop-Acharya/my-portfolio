@@ -16,7 +16,7 @@ export default function Experience({ company, position, location, duration, desc
             <p className="font-light text-sm">{location}</p>
           </div>
         </div>
-        <div className="text-justify mt-2">{description}</div>
+        <div className="text-justify font-light mt-2">{description}</div>
         <div className="flex w-full gap-2 m-4 flex-wrap">
           {techStack.map((tech, index) => (
             <span key={index} className="text-xs block bg-white text-black py-1 px-4 rounded-full">

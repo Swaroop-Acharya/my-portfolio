@@ -8,7 +8,7 @@ export default function About() {
           <div className= "text-3xl md:text-5xl font-bold">Background</div>
           <div className="h-px w-full border border-slate-400"></div>
         </div>
-        <div className="text-base m-8  w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">
+        <div className="text-base font-light m-8  w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">
           <p className="mb-10 ">
             Welcome to my portfolio! I hold a degree in Information Science and
             Engineering from{" "}
