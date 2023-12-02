@@ -14,7 +14,7 @@ const experienceObj=[
         company:"Freelance Developer",
         position:"Full Stack Dev",
         location:"Remote",
-        duration:"March. 2023 – Present",
+        duration:"Mar 2023 – Present",
         description:"Intern with hands-on experience in React and Angular, utilizing Jest for code testing. Applied foundational Java skills in project development. Developed web applications by integrating APIs, gaining practical insights into modern development workflows.",
         techStack:["PHP","React.js","HTML/CSS","Javascript","SQL","PhpMyAdmin","ChakraUI"]
 

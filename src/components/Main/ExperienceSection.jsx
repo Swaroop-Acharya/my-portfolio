@@ -5,14 +5,16 @@ import { experienceObj } from "../../Data";
 export default function ExperienceSection() {
   return (
     <section className="flex flex-col justify-center items-center">
-      <div className="flex justify-center items-center w-9/12 gap-8">
-        <div className="text-5xl font-bold">Experience</div>
-        <div className="h-px w-full border border-[#ebecf3]"></div>
+      <div className="flex flex-col justify-center items-center m-3 w-4/5">
+        <div className="flex justify-center items-center w-full  gap-8">
+          <div className="sm:text-4xl md:text-5xl font-bold">Experience</div>
+          <div className="h-px w-full border border-[#ebecf3]"></div>
+        </div>
+
+        {experienceObj.map((experience, index) => (
+          <Experience key={index} {...experience} />
+        ))}
       </div>
-    
-      {experienceObj.map((experience, index) => (
-        <Experience key={index} {...experience} />
-      ))}
     </section>
   );
 }
