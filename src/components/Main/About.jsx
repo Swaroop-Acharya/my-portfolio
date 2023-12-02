@@ -5,7 +5,7 @@ export default function About() {
     <section className="flex flex-col justify-center items-center gap-1  mt-8 ">
       <div className="flex flex-col justify-center items-center   w-4/5">
         <div className="flex justify-center items-center w-full  gap-8">
-          <div className= "sm:text-4xl md:text-5xl font-bold">Background</div>
+          <div className= "text-4xl md:text-5xl font-bold">Background</div>
           <div className="h-px w-full border  border-[#ebecf3]"></div>
         </div>
         <div className="text-base m-8  w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">

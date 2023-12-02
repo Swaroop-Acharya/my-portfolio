@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="flex flex-col justify-center items-center gap-1  w-4/5">
         <div className="flex justify-center items-center w-full gap-8">
           <div className="h-px w-full border border-[#ebecf3]"></div>
-          <div className="sm:text-4xl md:text-5xl font-bold">Skills</div>
+          <div className="text-4xl md:text-5xl font-bold">Skills</div>
         </div>
         <div className="flex flex-wrap justify-between mt-4">
           <div className="mb-6 flex-1 min-w-[150px]">
