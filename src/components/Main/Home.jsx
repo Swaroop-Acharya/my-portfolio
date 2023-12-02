@@ -37,14 +37,15 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center gap-5">
           <a href="https://github.com/Swaroop-Acharya" target="__blank">
-            <GitHub fontSize="large" />
+            <GitHub sx={{ fontSize: 35 }} />
           </a>
           <a href="https://www.linkedin.com/in/swaroop-acharya-55b8b5223/"  target="__blank">
 
-          <LinkedIn fontSize="large" />
+          <LinkedIn sx={{ fontSize: 38 }} />
           </a>
           <a href="https://twitter.com/swaroopcodes"  target="__blank">
-          <Twitter fontSize="large" />
+            <img src="/X.png" alt="twitter" className="w-7 h-7" />
+
 
           </a>
         </div>
