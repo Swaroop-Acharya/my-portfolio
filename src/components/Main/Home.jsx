@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "../Button";
 import "./home.css";
-import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
+import { GitHub, LinkedIn } from "@mui/icons-material";
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 export default function Home() {
   return (
@@ -49,6 +50,9 @@ export default function Home() {
 
           </a>
         </div>
+      </div>
+      <div>
+       <KeyboardDoubleArrowDownIcon/>
       </div>
     </section>
   );
