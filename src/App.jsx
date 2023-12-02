@@ -8,6 +8,8 @@ import { useState, useEffect } from "react";
 import Home from "./components/Main/Home.jsx";
 import About from "./components/Main/About.jsx";
 import Skills from "./components/Main/Skills.jsx";
+import Experience from "./components/Main/Experience.jsx";
+import ExperienceSection from "./components/Main/ExperienceSection.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,6 +36,7 @@ function App() {
             <Home />
             <About/>
             <Skills/>
+            <ExperienceSection/>
            
           </Main>
 
