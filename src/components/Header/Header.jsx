@@ -8,7 +8,7 @@ export default function Header() {
     icon.classList.toggle("open");
   }
   return (
-    <header className="w-full mx-auto flex flex-col align-middle ">
+    <header className="w-full mx-auto flex flex-col align-middle drop-in">
       <nav className="desktop-nav p-4 justify-around items-center my-6 md:flex hidden ">
         <div className="logo text-2xl md:text-3xl hover:cursor-default">Swaroop</div>
         <div>
