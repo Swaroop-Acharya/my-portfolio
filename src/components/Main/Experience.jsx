@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Experience({ company, position, location, duration, description, techStack }) {
   return (
-    <div className="flex flex-col md:justify-center md:items-center">
-      <div className="flex flex-col w-9/12 mt-5 border-b border-[#232323] ">
+    <div className="flex flex-col md:justify-center w-full md:items-center">
+      <div className="flex flex-col mt-5 border-b border-[#232323] ">
         <div className="flex justify-between">
           <div>
             <p className="font-bold text-lg">{company}</p>
