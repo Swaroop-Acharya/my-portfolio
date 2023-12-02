@@ -6,7 +6,7 @@ import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
 export default function Home() {
   return (
     <section className="gap-10 home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
-      <div>
+      <div className="drop-in">
         <img
           loading="lazy"
           className=" w-40 h-40 md:w-80 md:h-80 rounded-full"
@@ -16,11 +16,11 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-7 w-96">
         <div className="flex flex-col gap-4">
-          <p className="font-semibold">Hello, I'm</p>
-          <h1 className="text-3xl md:text-5xl font-semibold">Swaroop</h1>
-          <h1 className="font-semibold">Software Developer</h1>
+          <p className="font-semibold drop-in-2">Hello, I'm</p>
+          <h1 className="text-3xl md:text-5xl font-semibold drop-in-2">Swaroop</h1>
+          <h1 className="font-semibold drop-in-2">Software Developer</h1>
         </div>
-        <div className="flex justify-center items-center gap-3">
+        <div className="flex justify-center items-center gap-3 drop-in-2">
           <Button
             title="Resume"
             logo={
@@ -35,7 +35,7 @@ export default function Home() {
           />
           <Button title="Contact Me" logo="" />
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-center items-center gap-5 drop-in-2">
           <a href="https://github.com/Swaroop-Acharya" target="__blank">
             <GitHub sx={{ fontSize: 35 }} />
           </a>
