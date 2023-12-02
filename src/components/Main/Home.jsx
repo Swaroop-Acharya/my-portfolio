@@ -8,7 +8,7 @@ export default function Home() {
     <section className="gap-10 home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
       <div className="drop-in">
         <img
-          loading="lazy"
+
           className=" w-40 h-40 md:w-80 md:h-80 rounded-full"
           src="/Profile.JPG"
           alt=""
