@@ -4,10 +4,10 @@ export default function SendBtn() {
   return (
     <button
       type="button"
-      class="px-4 py-3 text-xs font-medium text-center inline-flex items-center text-black bg-white rounded-lg hover:bg-gray-300 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+      class="px-3 py-2 text-xs font-medium text-center inline-flex items-center text-black bg-white rounded-lg hover:bg-gray-300 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
     >
       <svg
-        class="w-3 h-3 text-white me-2"
+        class="w-3 h-3 text-black me-2"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
