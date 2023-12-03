@@ -9,7 +9,7 @@ export default function Contact() {
     <section className="flex flex-col justify-center items-center gap-1">
       <div className="flex flex-col justify-center items-center gap-1  w-4/5">
         <div className="flex justify-center items-center w-full gap-8">
-          <div className="text-3xl md:text-5xl font-bold">Contact me</div>
+          <div className="text-xl md:text-5xl font-bold">Contact</div>
           <div className="h-px w-full border  border-slate-400"></div>
         </div>
         <div className="flex mt-5 justify-center flex-col items-center gap-4">
