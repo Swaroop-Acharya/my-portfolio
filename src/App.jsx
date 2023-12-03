@@ -3,13 +3,16 @@ import "../src/Styles/modern-normalise.css";
 import Header from "./components/Header/Header.jsx";
 import Main from "./components/Main/Main.jsx";
 import AnimatedCursor from "react-animated-cursor";
-import { PropagateLoader,HashLoader, PacmanLoader} from "react-spinners";
+import { PropagateLoader, HashLoader, PacmanLoader } from "react-spinners";
 import { useState, useEffect } from "react";
 import Home from "./components/Main/Home.jsx";
 import About from "./components/Main/About.jsx";
 import Skills from "./components/Main/Skills.jsx";
 import Experience from "./components/Main/Experience.jsx";
 import ExperienceSection from "./components/Main/ExperienceSection.jsx";
+import Projects from "./components/Main/Projects.jsx";
+import Contact from "./components/Main/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,11 +37,13 @@ function App() {
           <Header />
           <Main>
             <Home />
-            <About/>
-            <Skills/>
-            <ExperienceSection/>
-           
+            <About />
+            <Skills />
+            <ExperienceSection />
+            <Projects />
+            <Contact />
           </Main>
+          <Footer />
 
           <AnimatedCursor
             innerSize={15}
