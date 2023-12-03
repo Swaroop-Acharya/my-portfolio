@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SendButton() {
+export default function SendBtn() {
   return (
     <button
       type="button"

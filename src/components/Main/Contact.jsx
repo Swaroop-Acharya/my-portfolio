@@ -1,6 +1,7 @@
 import React from "react";
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
-import SendButton from "../sendButton";
+import SendBtn from "../SendBtn";
+
 
 
 export default function Contact() {
@@ -40,7 +41,7 @@ export default function Contact() {
             </a>
           </div>
          <div>
-           <SendButton/>
+            <SendBtn/>
          </div>
         </div>
       </div>
