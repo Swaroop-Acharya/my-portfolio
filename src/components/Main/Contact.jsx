@@ -1,6 +1,5 @@
 import React from "react";
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
-import SendButton from "../sendButton";
 
 
 export default function Contact() {
