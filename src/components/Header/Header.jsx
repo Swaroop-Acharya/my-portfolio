@@ -50,7 +50,7 @@ export default function Header() {
           </ul>
         </div>
       </nav>
-      <nav className=" hamburger-nav flex justify-between mt-4 ml-4 mr-4 items-center md:hidden">
+      <nav className=" hamburger-nav flex justify-between mt-5 ml-5 mr-5 items-center md:hidden">
         <div className=" text-white text-2xl hover:cursor-default logo">Swaroop</div>
         <div className="hamburger-menu relative inline-block">
           <div
