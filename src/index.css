@@ -124,13 +124,13 @@
 }
 
 body {
-  background: rgb(35, 66, 222);
+  /* background: rgb(35, 66, 222);
   background: radial-gradient(
     ellipse,
     rgb(35, 66, 222) 0%,
     rgba(0, 0, 0, 1) 45%
   );
-  background-attachment: fixed;
+  background-attachment: fixed; */
 
 }
 
