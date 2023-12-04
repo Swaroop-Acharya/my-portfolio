@@ -39,8 +39,8 @@ function App() {
           <Main>
             <Home />
             <About />
-            <Skills />
             <ExperienceSection />
+            <Skills />
             <Projects />
             <Contact />
           </Main>
