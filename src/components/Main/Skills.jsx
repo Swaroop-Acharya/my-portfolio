@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <section className="flex flex-col justify-center items-center gap-1">
+    <section className="flex text-white flex-col justify-center items-center gap-1">
       <div className="flex flex-col justify-center items-center gap-1  w-4/5">
         <div className="flex justify-center items-center w-full gap-8">
           <div className="h-px w-full border  border-slate-400"></div>

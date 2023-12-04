@@ -6,7 +6,7 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 
 export default function Home() {
   return (
-    <section className="gap-10 home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
+    <section className="gap-10 text-white home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
       <div className="drop-in">
         <img
 
@@ -33,8 +33,9 @@ export default function Home() {
                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
               </svg>
             }
+            link="https://drive.google.com/file/d/116W19JOl4FjzhpMFPXicJX216-eCQARn/view?usp=drive_link"
           />
-          <Button title="Contact Me" logo="" />
+          <Button title="Contact Me" logo="" link="#about" />
         </div>
         <div className="flex justify-center items-center gap-5 drop-in-2">
           <a href="https://github.com/Swaroop-Acharya" target="__blank">

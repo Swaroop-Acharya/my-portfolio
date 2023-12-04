@@ -13,6 +13,7 @@ import ExperienceSection from "./components/Main/ExperienceSection.jsx";
 import Projects from "./components/Main/Projects.jsx";
 import Contact from "./components/Main/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,6 +44,7 @@ function App() {
             <Projects />
             <Contact />
           </Main>
+          <Toaster />
           <Footer />
 
           <AnimatedCursor

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="flex flex-col justify-center items-center gap-1 mt-12 ">
+    <section id="about" className="text-white flex flex-col justify-center items-center gap-1 mt-12 ">
       <div className="flex flex-col justify-center items-center   w-4/5">
         <div className="flex justify-center items-center w-full  gap-8">
           <div className= "text-3xl md:text-5xl font-bold">Background</div>

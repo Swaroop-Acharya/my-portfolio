@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+
 export default function Header() {
   function toggleMenu() {
     const menu = document.querySelector(".menu-links");
@@ -10,13 +11,14 @@ export default function Header() {
   return (
     <header className="w-full mx-auto flex flex-col align-middle drop-in">
       <nav className="desktop-nav p-4 justify-around items-center my-6 md:flex hidden ">
-        <div className="logo text-2xl md:text-3xl hover:cursor-default">Swaroop</div>
+        <div className="text-white logo text-2xl md:text-3xl hover:cursor-default">Swaroop</div>
         <div>
-          <ul className="nav-links flex gap-8 list-none text-2xl">
+          <ul className="nav-links text-white flex gap-8 list-none text-2xl">
             <li>
               <a
                 className="transition-all duration-300 ease hover:text-gray-500 hover:underline hover:underline-offset-8 "
                 href="#about"
+                
               >
                 About
               </a>

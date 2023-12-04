@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Button({logo,title}) {
+export default function Button({logo,title,link}) {
   return (
    <>
         <a
-            href="https://drive.google.com/file/d/116W19JOl4FjzhpMFPXicJX216-eCQARn/view?usp=drive_link" target="__blank"
+            href={link} target="__blank"
             class="relative inline-flex items-center justify-start inline-block px-6 py-3 overflow-hidden font-bold rounded-full group"
           >
             <span class="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
