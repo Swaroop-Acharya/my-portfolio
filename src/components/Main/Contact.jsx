@@ -66,7 +66,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="flex flex-col justify-center items-center gap-1">
+    <section id="contact" className="flex flex-col justify-center items-center gap-1">
       <div className="flex flex-col justify-center items-center gap-1  w-4/5">
         <div className="flex justify-center items-center w-full gap-8">
           <div className="text-white text-3xl md:text-5xl font-bold">

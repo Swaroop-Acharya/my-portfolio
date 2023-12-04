@@ -35,7 +35,7 @@ export default function Home() {
             }
             link="https://drive.google.com/file/d/116W19JOl4FjzhpMFPXicJX216-eCQARn/view?usp=drive_link"
           />
-          <Button title="Contact Me" logo="" link="#about" />
+          <Button title="Contact Me" logo="" link="#contact" />
         </div>
         <div className="flex justify-center items-center gap-5 drop-in-2">
           <a href="https://github.com/Swaroop-Acharya" target="__blank">
