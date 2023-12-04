@@ -6,7 +6,7 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 
 export default function Home() {
   return (
-    <section className="gap-10 text-white home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
+    <section className="gap-10 mt-12 md:mt-0 text-white home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
       <div className="drop-in">
         <img
 
