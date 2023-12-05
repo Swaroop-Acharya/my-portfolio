@@ -55,7 +55,7 @@ export default function Header() {
         <div className=" text-white text-2xl hover:cursor-default logo">
           Swaroop
         </div>
-        <div className="hamburger-menu relative inline-block">
+        <div className="hamburger-menu  inline-block">
           <div
             className="hamburger-icon flex flex-col justify-between h-6 w-8 cursor-pointer"
             onClick={toggleMenu}
@@ -64,7 +64,7 @@ export default function Header() {
             <span className=" w-full h-0.5 bg-white transition-all duration-300 ease-in-out"></span>
             <span className=" w-full h-0.5 bg-white transition-all duration-300 ease-in-out"></span>
           </div>
-          <div className="menu-links menu-links absolute top-full right-0 bg-black w-max max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div className="menu-links menu-links absolute top-full right-0 bg-white w-max max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <li className="list-none">
               <a
                 className="block p-2.5  text-center text-2xl no-underline transition-all duration-300 ease-in-out"

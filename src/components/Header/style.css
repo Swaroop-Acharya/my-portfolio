@@ -1,6 +1,7 @@
 
 .menu-links.open {
     max-height: 300px;
+    width: 100%;
   }
   
   .hamburger-icon.open span:first-child {
