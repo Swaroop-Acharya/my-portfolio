@@ -64,7 +64,7 @@ export default function Header() {
             <span className=" w-full h-0.5 bg-white transition-all duration-300 ease-in-out"></span>
             <span className=" w-full h-0.5 bg-white transition-all duration-300 ease-in-out"></span>
           </div>
-          <div className="menu-links menu-links absolute top-full right-0 bg-white w-max max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div className="menu-links w-full menu-links absolute top-full right-0 bg-white  max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <li className="list-none">
               <a
                 className="block p-2.5  text-center text-2xl no-underline transition-all duration-300 ease-in-out"
