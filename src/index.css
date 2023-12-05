@@ -172,3 +172,21 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100vw;
   cursor: pointer;
 }
+
+
+
+.project_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3.2rem;
+  gap: 3.2rem;
+}
+@media (max-width: 768px){
+.project_container {
+    grid-template-columns: 1fr;
+}
+}
+
+.border-clr{
+  border-color: hsl(240 3.7% 15.9%);
+}

@@ -101,6 +101,15 @@ export default function Header() {
                 Projects
               </a>
             </li>
+            <li className="list-none">
+              <a
+                className="block p-2.5  text-center text-2xl no-underline transition-all duration-300 ease-in-out"
+                href="#contact"
+                onClick={toggleMenu}
+              >
+                Contact
+              </a>
+            </li>
           </div>
         </div>
       </nav>
