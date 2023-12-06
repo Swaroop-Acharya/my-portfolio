@@ -14,6 +14,7 @@ import Projects from "./components/Main/Projects.jsx";
 import Contact from "./components/Main/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { Toaster } from "./components/ui/toaster";
+import ProjectSection from "./components/Main/ProjectSection";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -41,7 +42,7 @@ function App() {
             <About />
             <ExperienceSection />
             <Skills />
-            <Projects />
+            <ProjectSection/>
             <Contact />
           </Main>
           <Toaster />
