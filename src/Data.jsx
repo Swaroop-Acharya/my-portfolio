@@ -55,7 +55,7 @@ const projectsObj = [
     techStack: ["HTML/CSS", "SQL", "PHP", "Triggers"],
   },
   {
-    imgUrl: "/Medical.jpeg",
+    imgUrl: "/android.png",
     title: "Student Mobile Application",
     gitHubLink:
       "https://github.com/Swaroop-Acharya/Moblie-app-development-project",
@@ -74,11 +74,11 @@ const projectsObj = [
 
   {
     imgUrl: "/FS.png",
-    title: "Pharmacy Management System Pharmacy ManagmeSystm",
+    title: "Pharmacy Management System",
     gitHubLink:
       "https://github.com/Swaroop-Acharya/Pharmacy-Management-FS-/tree/main",
     description:
-      "Developed a CLI-based pharmacy management system that efficiently handles tasks like searching, ordering, and modifying data, using a file system for streamlined storage and access. The system also tracks daily medicine orders and customer interactions, offering valuable insights into operational activities.",
+      "Developed a CLI-based pharmacy management system that efficiently handles tasks like searching, ordering, and modifying data, using a file system for streamlined storage and access.",
     techStack: ["C++", "File Operation", "CMD"],
   },
 ];
