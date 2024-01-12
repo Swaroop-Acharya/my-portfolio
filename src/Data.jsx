@@ -65,22 +65,21 @@ const projectsObj = [
   },
   {
     imgUrl: "/Medical.jpeg",
-    title: "Student Mobile Application",
-    gitHubLink:
-      "https://github.com/Swaroop-Acharya/Moblie-app-development-project",
+    title: "Multi-Modal Bank Authentication System",
+    gitHubLink: "https://github.com/Swaroop-Acharya/Final_Project",
     description:
-      "Android app facilitating students in effortless note-taking, uploading, and management. Leveraged Firebase Cloud for efficient data storage and retrieval, ensuring seamless access. ",
-    techStack: ["Java", "Android Studio", "Firebase Cloud", "Firebase Auth"],
+      "Developed a highly secure multimodal authentication system for a bank utilizing facial and voice recognition, achieving an impressive accuracy of 99.38% on the Labeled Faces in the Wild benchmark.",
+    techStack: ["GMM", "MFCC", "Python", "Machine Learning"],
   },
 
   {
     imgUrl: "/Medical.jpeg",
-    title: "Student Mobile Application",
+    title: "Pharmacy Management System ",
     gitHubLink:
-      "https://github.com/Swaroop-Acharya/Moblie-app-development-project",
+      "https://github.com/Swaroop-Acharya/Pharmacy-Management-FS-/tree/main",
     description:
-      "Android app facilitating students in effortless note-taking, uploading, and management. Leveraged Firebase Cloud for efficient data storage and retrieval, ensuring seamless access. ",
-    techStack: ["Java", "Android Studio", "Firebase Cloud", "Firebase Auth"],
+      "Developed a CLI-based pharmacy management system that efficiently handles tasks like searching, ordering, and modifying data, using a file system for streamlined storage and access. The system also tracks daily medicine orders and customer interactions, offering valuable insights into operational activities.",
+    techStack: ["C++", "File Operation", "CMD"],
   },
 ];
 
