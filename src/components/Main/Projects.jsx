@@ -12,7 +12,7 @@ export default function Projects({
   return (
     <div className="max-w-[345px] border-clr border rounded-lg overflow-hidden ">
       <div>
-        <img src={imgUrl} className="" alt={title} />
+        <img src={imgUrl} className="w-[350px] h-[170px]" alt={title} />
       </div>
       <div className="m-4 flex flex-col gap-4">
         <div className="flex justify-between">
@@ -31,7 +31,6 @@ export default function Projects({
             </Badge>
           ))}
         </div>
-        
       </div>
     </div>
   );

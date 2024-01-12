@@ -69,12 +69,12 @@ const projectsObj = [
     gitHubLink: "https://github.com/Swaroop-Acharya/Final_Project",
     description:
       "Developed a highly secure multimodal authentication system for a bank utilizing facial and voice recognition, achieving an impressive accuracy of 99.38% on the Labeled Faces in the Wild benchmark.",
-    techStack: ["GMM", "MFCC", "Python", "Machine Learning"],
+    techStack: ["Machine Learning", "GMM", "MFCC", "Python"],
   },
 
   {
-    imgUrl: "/Medical.jpeg",
-    title: "Pharmacy Management System ",
+    imgUrl: "/FS.png",
+    title: "Pharmacy Management System Pharmacy ManagmeSystm",
     gitHubLink:
       "https://github.com/Swaroop-Acharya/Pharmacy-Management-FS-/tree/main",
     description:
