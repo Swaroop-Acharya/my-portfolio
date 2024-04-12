@@ -33,7 +33,7 @@ export default function Home() {
                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
               </svg>
             }
-            link="https://drive.google.com/file/d/116W19JOl4FjzhpMFPXicJX216-eCQARn/view?usp=drive_link"
+            link="https://drive.google.com/file/d/155E2mkEFtm64wY5xyMBHZQ5pNQFbFSIm/view?usp=sharing"
           />
           <Button title="Contact Me" logo="" link="#contact" />
         </div>

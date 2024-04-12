@@ -6,7 +6,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="text-white flex flex-col justify-center items-center"
+      className="text-white  flex flex-col justify-center items-center"
     >
       <div className="flex flex-col justify-center items-center m-3 w-4/5">
         <div className="flex justify-center items-center w-full gap-8">
