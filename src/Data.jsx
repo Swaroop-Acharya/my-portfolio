@@ -10,10 +10,23 @@ const introdata = {
 
 const experienceObj = [
   {
+    company:"illumifin",
+    position:"Software Engineer Trainee",
+    location:"Bangalore, India",
+    duration:"Jan 2024 - Present",
+    description:"Working on a Full Stack Java project which is leverages MVC architecture for the Health Annuity and Lifecare (HAL) Software development team.  Actively contributing to agile-driven projects, engage in code reviews, and collaborate to deliver high-quality software. Assists senior developers, gaining proficiency in Java Spring Boot and SQL.",
+    techStack:[
+      "Spring",
+      "JSF",
+      "MS SQL",
+      "AJAX"
+    ]
+  },
+  {
     company: "Freelance Developer",
     position: "Full Stack Dev",
     location: "Remote",
-    duration: "Mar 2023 – Present",
+    duration: "Mar 2023 – Jan 2024",
     description:
       "Intern with hands-on experience in React and Angular, utilizing Jest for code testing. Applied foundational Java skills in project development. Developed web applications by integrating APIs, gaining practical insights into modern development workflows.",
     techStack: [
@@ -43,6 +56,7 @@ const experienceObj = [
       "Python",
     ],
   },
+  
 ];
 
 const projectsObj = [
@@ -55,21 +69,21 @@ const projectsObj = [
     techStack: ["HTML/CSS", "SQL", "PHP", "Triggers"],
   },
   {
-    imgUrl: "/android.png",
+    imgUrl: "/android.jpg",
     title: "Student Mobile Application",
     gitHubLink:
       "https://github.com/Swaroop-Acharya/Moblie-app-development-project",
     description:
       "Android app facilitating students in effortless note-taking, uploading, and management. Leveraged Firebase Cloud for efficient data storage and retrieval, ensuring seamless access. ",
-    techStack: ["Java", "Android Studio", "Firebase Cloud", "Firebase Auth"],
+    techStack: ["Java", "AndroidStudio", "Firebase", "FireAuth"],
   },
   {
-    imgUrl: "/Medical.jpeg",
+    imgUrl: "/ml.jpg",
     title: "Multi-Modal Bank Authentication System",
     gitHubLink: "https://github.com/Swaroop-Acharya/Final_Project",
     description:
       "Developed a highly secure multimodal authentication system for a bank utilizing facial and voice recognition, achieving an impressive accuracy of 99.38% on the Labeled Faces in the Wild benchmark.",
-    techStack: ["Machine Learning", "GMM", "MFCC", "Python"],
+    techStack: ["ML/DL", "GMM", "MFCC", "Python"],
   },
 
   {

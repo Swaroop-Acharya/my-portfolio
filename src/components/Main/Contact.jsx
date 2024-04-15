@@ -74,7 +74,7 @@ export default function Contact() {
           </div>
           <div className="h-px w-full border  border-slate-400"></div>
         </div>
-        <Fade direction="up" triggerOnce={true}>
+       
           <div className="text-white flex mt-5 justify-center flex-col items-center gap-4">
             <p className="max-w-[60ch] text-center font-light">
               Whether you are starting a project, have business inquiries or
@@ -175,7 +175,7 @@ export default function Contact() {
               </Dialog>
             </div>
           </div>
-        </Fade>
+       
       </div>
     </section>
   );

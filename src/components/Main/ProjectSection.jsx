@@ -15,7 +15,7 @@ export default function ProjectSection() {
             <h1 className="text-3xl md:text-5xl font-bold">Projects</h1>
           </div>
         </div>
-        <div className="project_container mt-9">
+        <div className="project_container my-10">
           <Fade direction="up" triggerOnce={true}>
             {projectsObj.map((project, index) => (
               <Projects key={index} {...project} />

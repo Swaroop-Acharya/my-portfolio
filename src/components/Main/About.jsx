@@ -13,7 +13,7 @@ export default function About() {
           <div className="h-px w-full border border-slate-400"></div>
         </div>
 
-        <div className="text-base font-light m-8  w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">
+        <div className="text-base font-light mt-16 mb-10  w-full max-w-[60ch] md:max-w-[80ch] lg:max-w-[100ch] text-justify">
           <Fade direction="up" triggerOnce={true}>
             <div>
               <p className="mb-10 ">
@@ -21,18 +21,26 @@ export default function About() {
                 and Engineering from{" "}
                 <a
                   href="https://sahyadri.edu.in/"
-                  className="text-white hover:text-secondary transition-all relative"
+                  className="text-white font-bold hover:text-secondary hover:underline transition-all relative"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Sahyadri College of Engineering and Management
                 </a>
-                , Mangalore, and currently looking for oppertunities , where I
-                initially interned at LTIMindtree for 3 Months.
+                , Mangalore, and I am currently working as a Software Engineer Trainee @  <a
+                  href="https://www.illumifin.com/"
+                  className="text-white font-bold hover:text-secondary hover:underline transition-all relative"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  illumifin India
+                </a>
+                {" "}
+                 belongs to <span className="font-bold">Health Annuity and Lifecare (HAL)</span> Software Team.
               </p>
               <p className="mb-10">
                 As a passionate Developer, I thrive on exploring new frameworks
-                and libraries. My recent focus has been on mastering MERN Stack.
+                and libraries. My recent focus has been on mastering Full Stack in Java.
               </p>
             </div>
           </Fade>
