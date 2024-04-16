@@ -10,17 +10,13 @@ const introdata = {
 
 const experienceObj = [
   {
-    company:"illumifin",
-    position:"Software Engineer Trainee",
-    location:"Bangalore, India",
-    duration:"Jan 2024 - Present",
-    description:"Working on a Full Stack Java project which is leverages MVC architecture for the Health Annuity and Lifecare (HAL) Software development team.  Actively contributing to agile-driven projects, engage in code reviews, and collaborate to deliver high-quality software. Assists senior developers, gaining proficiency in Java Spring Boot and SQL.",
-    techStack:[
-      "Spring",
-      "JSF",
-      "MS SQL",
-      "AJAX"
-    ]
+    company: "illumifin",
+    position: "Software Engineer Trainee",
+    location: "Bangalore, India",
+    duration: "Jan 2024 - Present",
+    description:
+      "Working on a Full Stack Java project which is leverages MVC architecture for the Health Annuity and Lifecare (HAL) Software development team.  Actively contributing to agile-driven projects, engage in code reviews, and collaborate to deliver high-quality software. Assists senior developers, gaining proficiency in Java Spring Boot and SQL.",
+    techStack: ["Spring", "JSF", "MS SQL", "AJAX"],
   },
   {
     company: "Freelance Developer",
@@ -56,7 +52,6 @@ const experienceObj = [
       "Python",
     ],
   },
-  
 ];
 
 const projectsObj = [
@@ -97,11 +92,23 @@ const projectsObj = [
   },
 ];
 
-const resumeLink="https://drive.google.com/file/d/1VlXMupvYYPQnv6QgnoYPlHA9bbzo4vbG/view?usp=sharing";
-const collegeLink="https://sahyadri.edu.in/"
-const companyLink="https://www.illumifin.com/"
-const gitHubLink="https://github.com/Swaroop-Acharya"
-const linkedinLink="https://www.linkedin.com/in/swaroop-acharya-55b8b5223/"
-const xLink="https://twitter.com/swaroopcodes"
-const leetcodeLink='https://leetcode.com/SwarO_Op/'
-export {gitHubLink,linkedinLink,xLink, leetcodeLink,introdata, experienceObj, projectsObj,resumeLink,companyLink,collegeLink};
+const resumeLink =
+  "https://drive.google.com/file/d/1VlXMupvYYPQnv6QgnoYPlHA9bbzo4vbG/view?usp=sharing";
+const collegeLink = "https://sahyadri.edu.in/";
+const companyLink = "https://www.illumifin.com/";
+const gitHubLink = "https://github.com/Swaroop-Acharya";
+const linkedinLink = "https://www.linkedin.com/in/swaroop-acharya-55b8b5223/";
+const xLink = "https://twitter.com/swaroopcodes";
+const leetcodeLink = "https://leetcode.com/SwarO_Op/";
+export {
+  gitHubLink,
+  linkedinLink,
+  xLink,
+  leetcodeLink,
+  introdata,
+  experienceObj,
+  projectsObj,
+  resumeLink,
+  companyLink,
+  collegeLink,
+};
