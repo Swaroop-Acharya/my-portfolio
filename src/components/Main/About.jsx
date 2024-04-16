@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import React from "react";
-
+import { collegeLink,companyLink } from "@/Data";
 export default function About() {
   return (
     <section
@@ -20,7 +20,7 @@ export default function About() {
                 Welcome to my portfolio! I hold a degree in Information Science
                 and Engineering from{" "}
                 <a
-                  href="https://sahyadri.edu.in/"
+                  href={collegeLink}
                   className="text-white font-bold hover:text-secondary hover:underline transition-all relative"
                   target="_blank"
                   rel="noreferrer"
@@ -28,7 +28,7 @@ export default function About() {
                   Sahyadri College of Engineering and Management
                 </a>
                 , Mangalore, and I am currently working as a Software Engineer Trainee @  <a
-                  href="https://www.illumifin.com/"
+                  href={companyLink}
                   className="text-white font-bold hover:text-secondary hover:underline transition-all relative"
                   target="_blank"
                   rel="noreferrer"

@@ -97,4 +97,11 @@ const projectsObj = [
   },
 ];
 
-export { introdata, experienceObj, projectsObj };
+const resumeLink="https://drive.google.com/file/d/1VlXMupvYYPQnv6QgnoYPlHA9bbzo4vbG/view?usp=sharing";
+const collegeLink="https://sahyadri.edu.in/"
+const companyLink="https://www.illumifin.com/"
+const gitHubLink="https://github.com/Swaroop-Acharya"
+const linkedinLink="https://www.linkedin.com/in/swaroop-acharya-55b8b5223/"
+const xLink="https://twitter.com/swaroopcodes"
+const leetcodeLink='https://leetcode.com/SwarO_Op/'
+export {gitHubLink,linkedinLink,xLink, leetcodeLink,introdata, experienceObj, projectsObj,resumeLink,companyLink,collegeLink};
