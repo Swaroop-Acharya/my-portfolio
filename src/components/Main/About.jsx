@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import React from "react";
-import { collegeLink,companyLink } from "@/Data";
+import { collegeLink, companyLink } from "@/Data";
 export default function About() {
   return (
     <section
@@ -27,20 +27,26 @@ export default function About() {
                 >
                   Sahyadri College of Engineering and Management
                 </a>
-                , Mangalore, and I am currently working as a Software Engineer Trainee @  <a
+                , Mangalore. I've successfully built <span className="font-bold">over 30 freelance projects </span> 
+                for clients both <span className="font-bold">onshore and offshore </span> , delivering top-notch solutions
+                every time.
+              </p>
+              <p className="mb-10">
+                I am currently working
+                as a Software Engineer Trainee @{" "}
+                <a
                   href={companyLink}
                   className="text-white font-bold hover:text-secondary hover:underline transition-all relative"
                   target="_blank"
                   rel="noreferrer"
                 >
                   illumifin India
-                </a>
-                {" "}
-                 belongs to <span className="font-bold">Health Annuity and Lifecare (HAL)</span> Software Team.
-              </p>
-              <p className="mb-10">
-                As a passionate Developer, I thrive on exploring new frameworks
-                and libraries. My recent focus has been on mastering Full Stack in Java.
+                </a>{" "}
+                belongs to{" "}
+                <span className="font-bold">
+                  Health Annuity and Lifecare (HAL)
+                </span>{" "}
+                Software Team.
               </p>
             </div>
           </Fade>
