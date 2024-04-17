@@ -17,9 +17,11 @@ export default function ExperienceSection() {
         </div>
         <div className="mt-10 mb-10">
           <Fade direction="up" triggerOnce={true}>
-            {experienceObj.map((experience, index) => (
-              <Experience key={index} {...experience} />
-            ))}
+          {experienceObj.map((experience, index) => (
+            <div key={index} className={`mb-5 ${index !== experienceObj.length - 1 ? 'border-b border-[#232323]' : ''}`}>
+              <Experience {...experience} />
+            </div>
+          ))}
           </Fade>
         </div>
       </div>
