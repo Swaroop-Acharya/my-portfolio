@@ -11,12 +11,12 @@ const introdata = {
 const experienceObj = [
   {
     company: "illumifin",
-    position: "Software Engineer Trainee",
+    position: "Associate Software Engineer",
     location: "Bangalore, India",
     duration: "Jan 2024 - Present",
     description:
       "Working on a Full Stack Java project which is leverages MVC architecture for the Health Annuity and Lifecare (HAL) Software development team.  Actively contributing to agile-driven projects, engage in code reviews, and collaborate to deliver high-quality software. Assists senior developers, gaining proficiency in Java Spring Boot and SQL.",
-    techStack: ["Spring", "JSF", "MS SQL", "AJAX"],
+    techStack: ["Spring", "JSF", "MS SQL"],
   },
   {
     company: "Freelance Developer",
@@ -93,7 +93,7 @@ const projectsObj = [
 ];
 
 const resumeLink =
-  "https://drive.google.com/file/d/1VlXMupvYYPQnv6QgnoYPlHA9bbzo4vbG/view?usp=sharing";
+  "https://drive.google.com/file/d/1vd2wHSnyc4ZjUwNorhP7Tahy6_M-zMwx/view?usp=drive_link";
 const collegeLink = "https://sahyadri.edu.in/";
 const companyLink = "https://www.illumifin.com/";
 const gitHubLink = "https://github.com/Swaroop-Acharya";
