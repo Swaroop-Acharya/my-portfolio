@@ -31,18 +31,23 @@ export default function Home() {
         <div className="flex justify-center items-center gap-3 drop-in-2">
           <Button
             title="Resume"
-            logo={
-              <svg
-                class="fill-current inline w-4 h-4 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-              </svg>
-            }
+            // logo={
+            //   <svg
+            //     class="fill-current inline w-4 h-4 mr-2"
+            //     xmlns="http://www.w3.org/2000/svg"
+            //     viewBox="0 0 20 20"
+            //   >
+            //     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            //   </svg>
+            // }
             link={resumeLink}
           />
-          <Button title="Hire Me" logo="" link="#contact" />
+          <Button
+            title="Hire Me"
+            logo=""
+            link="#contact"
+            link={"mailto:swaroopa802@gmail.com"}
+          />
         </div>
         <div className="flex justify-center items-center gap-5 drop-in-2">
           <a href={gitHubLink} target="__blank">
