@@ -3,7 +3,13 @@ import Button from "../Button";
 import "./home.css";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import { resumeLink,xLink,leetcodeLink,gitHubLink,linkedinLink } from "../../Data";
+import {
+  resumeLink,
+  xLink,
+  leetcodeLink,
+  gitHubLink,
+  linkedinLink,
+} from "../../Data";
 export default function Home() {
   return (
     <section className="gap-10 mt-1 md:mt-0 text-white home md:gap-20 flex md:flex-row flex-col text-center justify-center items-center-full mx-auto px-2 md:flex place-items-center ">
@@ -36,16 +42,13 @@ export default function Home() {
             }
             link={resumeLink}
           />
-          <Button title="Contact Me" logo="" link="#contact" />
+          <Button title="Hire Me" logo="" link="#contact" />
         </div>
         <div className="flex justify-center items-center gap-5 drop-in-2">
           <a href={gitHubLink} target="__blank">
             <GitHub sx={{ fontSize: 35 }} />
           </a>
-          <a
-            href={linkedinLink}
-            target="__blank"
-          >
+          <a href={linkedinLink} target="__blank">
             <LinkedIn sx={{ fontSize: 38 }} />
           </a>
           <a href={xLink} target="__blank">
