@@ -93,7 +93,7 @@ const projectsObj = [
 ];
 
 const resumeLink =
-  "https://drive.google.com/file/d/1QH9bOyWspzm04_a4wGRK5_vf1Q6dH6cS/view?usp=sharing";
+  "https://drive.google.com/file/d/1iLMauG6CmWRx7EaiwFuFvte5Y_e23b2n/view?usp=sharing";
 const collegeLink = "https://sahyadri.edu.in/";
 const companyLink = "https://www.illumifin.com/";
 const gitHubLink = "https://github.com/Swaroop-Acharya";
