@@ -15,7 +15,7 @@ import Contact from "./components/Main/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { Toaster } from "./components/ui/toaster";
 import ProjectSection from "./components/Main/ProjectSection";
-
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -58,6 +58,7 @@ function App() {
           />
         </div>
       )}
+      <Analytics/>
     </div>
   );
 }
